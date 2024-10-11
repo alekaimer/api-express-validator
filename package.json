@@ -1,0 +1,30 @@
+{
+  "name": "api-express-validator",
+  "version": "1.0.0",
+  "description": "Api Express.js with validation by Express Validator",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alekaimer/api-express-validator.git"
+  },
+  "keywords": [
+    "api",
+    "express",
+    "validator"
+  ],
+  "author": "Alexandre Kaimer",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alekaimer/api-express-validator/issues"
+  },
+  "homepage": "https://github.com/alekaimer/api-express-validator#readme",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "express": "^4.21.1",
+    "express-validator": "^7.2.0"
+  }
+}
